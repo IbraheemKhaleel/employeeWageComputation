@@ -1,0 +1,3 @@
+Welcome!
+This is Java Construct Program for employee wage computation.
+Thanks!
