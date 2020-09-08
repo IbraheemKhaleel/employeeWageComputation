@@ -11,9 +11,10 @@ public class dailyEmployeeWage
                 int empCheck,dailyWage,workingDay;
 		workingDay=0;
 		dailyWage=0;
+		int workingTime=0;
 		int totalWage=0;
                 Random rand=new Random();
-		while(workingDay<20)
+		while(workingDay<20 && workingTime<100)
 		{
                 	empCheck=rand.nextInt(3);
                 	if(empCheck == 1)
@@ -35,7 +36,7 @@ public class dailyEmployeeWage
 				System.out.println(" Employee is absent ");
 			}
 		}
-		System.out.println("Monthly wage is  "+ totalWage);
+		System.out.println("Monthly wage is  "  + totalWage );
 		System.out.println(" Total working day is " + workingDay);
         }
 }
