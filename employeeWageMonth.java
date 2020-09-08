@@ -11,10 +11,9 @@ public class dailyEmployeeWage
                 int empCheck,dailyWage,workingDay;
 		workingDay=0;
 		dailyWage=0;
-		int workingTime=0;
 		int totalWage=0;
                 Random rand=new Random();
-		while(workingDay<20 && workingTime<100)
+		while(workingDay<20)
 		{
                 	empCheck=rand.nextInt(3);
                 	if(empCheck == 1)
